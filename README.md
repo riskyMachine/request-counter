@@ -13,3 +13,7 @@ https://github.com/dmajkic/redis/downloads
 
 Note: I have used `client-side.js` file to simulate event requests. No need to run it seperately as
 I have forked it into child_process.
+
+##### 4. Get cacheObj
+You can get cacheObj_0 for 1st interval using redis-cli command `get 'cacheObj_0'`.
+In node.js you can get cacheObj by `client.get('cacheObj_0',callback)`. Callback have args (err,data)
