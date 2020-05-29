@@ -3,8 +3,6 @@
 npm install
 ```
 
-##### Not using Memcached since there is not official support for windows build.
-
 ##### 2. For windows download the zip of redis binaries.
 https://github.com/dmajkic/redis/downloads
 
